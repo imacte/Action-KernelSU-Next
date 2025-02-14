@@ -22,6 +22,11 @@ on:
         description: "内核版本"
         required: true
         default: '6.1'
+      SUSFS_ENABLED:
+        description: "添加 SUSFS"
+        required: true
+        type: boolean
+        default: true
       SUSFS_VERSION:
         description: "SUSFS 版本"
         required: true
@@ -57,7 +62,7 @@ jobs:
          chmod a+x ~/repo
          sudo mv ~/repo /usr/local/bin/repo
 
-      - name: Initialize repo and sync
+      - name: Initialize repo 和 sync
         run: |
          mkdir kernel_workspace && cd kernel_workspace
          repo init -u https://github.com/OnePlusOSS/kernel_manifest.git -b refs/heads/oneplus/${{ github.event.inputs.CPU }} -m ${{ github.event.inputs.FEIL }}.xml --depth=1
@@ -78,6 +83,7 @@ jobs:
          sed -i "s/DKSU_VERSION=11998/DKSU_VERSION=${KSU_VERSION}/" kernel/Makefile
         
       - name: Set up susfs
+        if: github.event.inputs.SUSFS_ENABLED == 'true'
         run: |
            cd kernel_workspace
            git clone https://gitlab.com/simonpunk/susfs4ksu.git -b gki-${{ github.event.inputs.ANDROID_VERSION }}-${{ github.event.inputs.KERNEL_VERSION }}
