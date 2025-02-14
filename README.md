@@ -6,12 +6,16 @@
 
 一加内核开源地址：[OnePlusOSS](https://github.com/OnePlusOSS/kernel_manifest)
 
-致谢
-KernelSU ：由tiann开发。
-KernelSU-Next ：由rifsxd开发。
-SUSFS ：由simonpunk开发。
-SUSFS 模块：由sidex15开发。
-Sultan Kernels ：由kerneltoast开发。
-特别感谢开源社区的贡献！
+# 致谢
 
-
+- **KernelSU**: Developed by [tiann](https://github.com/tiann).
+  
+- **KernelSU-Next**: Developed by [rifsxd](https://github.com/rifsxd/KernelSU-Next).
+  
+- **SUSFS**: Developed by [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git).
+  
+- **SUSFS Module**: Developed by [sidex15](https://github.com/sidex15).
+  
+- **Sultan Kernels**: Developed by [kerneltoast](https://github.com/kerneltoast).
+  
+Special thanks to the open-source community for their contributions!
