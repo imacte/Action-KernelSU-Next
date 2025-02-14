@@ -18,4 +18,4 @@
   
 - **Sultan Kernels**: Developed by [kerneltoast](https://github.com/kerneltoast).
   
-Special thanks to the open-source community for their contributions!
+特别感谢开源社区的贡献！
