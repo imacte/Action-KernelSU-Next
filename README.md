@@ -8,14 +8,14 @@
 
 # 致谢
 
-- **KernelSU**: Developed by [tiann](https://github.com/tiann).
+- **KernelSU**: 由[tiann](https://github.com/tiann)开发
   
-- **KernelSU-Next**: Developed by [rifsxd](https://github.com/rifsxd/KernelSU-Next).
+- **KernelSU-Next**: 由[rifsxd](https://github.com/rifsxd/KernelSU-Next)开发
   
-- **SUSFS**: Developed by [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git).
+- **SUSFS**: 由[simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git)开发
   
-- **SUSFS Module**: Developed by [sidex15](https://github.com/sidex15).
+- **SUSFS Module**: 由[sidex15](https://github.com/sidex15)开发
   
-- **Sultan Kernels**: Developed by [kerneltoast](https://github.com/kerneltoast).
+- **Sultan Kernels**: 由[kerneltoast](https://github.com/kerneltoast)开发
   
 特别感谢开源社区的贡献！
