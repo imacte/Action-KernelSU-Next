@@ -1,10 +1,3 @@
-> [!CAUTION]
-> 
->请Fork本分支项目
-> 而不是原项目或者其他项目 他们并不适配你这个机型!
-> MKSU Action仅适用于6.1内核！
- 
-
 一加内核开源地址：[OnePlusOSS](https://github.com/OnePlusOSS/kernel_manifest)
 
 # 致谢
