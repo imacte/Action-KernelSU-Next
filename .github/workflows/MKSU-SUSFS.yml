@@ -45,7 +45,7 @@ jobs:
       - name: Configure Git
         run: |
          git config --global user.name "build"
-         git config --global user.email "liw378721@gmail.com"
+         git config --global user.email "loyeturz@outlook.com"
 
       - name: Install dependencies
         run: |
